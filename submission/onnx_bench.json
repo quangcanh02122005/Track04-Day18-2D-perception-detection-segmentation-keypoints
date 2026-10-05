@@ -1,0 +1,34 @@
+[
+ {
+  "head": "one-to-one (end2end, NMS-free)",
+  "conf": 0.25,
+  "preprocess_ms": 12.09,
+  "inference_ms": 79.23,
+  "postprocess_ms": 0.68,
+  "boxes": 5
+ },
+ {
+  "head": "one-to-one (end2end, NMS-free)",
+  "conf": 0.001,
+  "preprocess_ms": 11.3,
+  "inference_ms": 80.45,
+  "postprocess_ms": 0.56,
+  "boxes": 177
+ },
+ {
+  "head": "one-to-many + NMS",
+  "conf": 0.25,
+  "preprocess_ms": 12.08,
+  "inference_ms": 76.61,
+  "postprocess_ms": 5.81,
+  "boxes": 5
+ },
+ {
+  "head": "one-to-many + NMS",
+  "conf": 0.001,
+  "preprocess_ms": 11.45,
+  "inference_ms": 77.55,
+  "postprocess_ms": 7.61,
+  "boxes": 186
+ }
+]
